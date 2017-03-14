@@ -8,23 +8,26 @@
   },
   "repository": {
     "type": "git",
-     "url": "git+https://github.com/Tactless7/38-integration_continue"
-   },
+    "url": "git+https://github.com/Tactless7/38-integration_continue"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.22.1",
+    "babel-jest": "^19.0.0",
     "babel-loader": "^6.2.10",
     "babel-preset-env": "^1.1.8",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-react": "^6.22.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "jest": "^19.0.2",
+    "react-test-renderer": "^15.4.2",
     "webpack": "^1.14.0"
   },
-   "dependencies": {
-     "react": "^15.4.2",
-     "react-dom": "^15.4.2"
-   },
-   "publishConfig": {
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "publishConfig": {
     "registry": "http://192.168.1.111:4873"
   }
 }
